@@ -1,0 +1,1535 @@
+# Copyright (C) 2026 MonoVM
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: MonoVM VPS 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/monovm-vps\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-11T10:51:52+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: monovm-vps\n"
+
+#. Theme Name of the theme
+#: style.css
+#: functions.php:58
+msgid "MonoVM VPS"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://monovm.com/free-wordpress-theme/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "A precise, native block theme for VPS, cloud, server, and managed infrastructure businesses."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "MonoVM"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://monovm.com/"
+msgstr ""
+
+#: patterns/benefits-features.php
+msgctxt "Pattern title"
+msgid "Benefits and features"
+msgstr ""
+
+#: patterns/benefits-features.php
+msgctxt "Pattern description"
+msgid "An indexed editorial list for explaining concrete customer outcomes."
+msgstr ""
+
+#: patterns/benefits-features.php:18
+msgid "06 / WHY THIS SERVICE"
+msgstr ""
+
+#: patterns/benefits-features.php:22
+msgid "Explain the operational value, not just the feature list."
+msgstr ""
+
+#: patterns/benefits-features.php:26
+msgid "Edit each item to reflect an outcome your infrastructure and support model can substantiate."
+msgstr ""
+
+#: patterns/benefits-features.php:34
+#: patterns/service-grid.php:30
+msgid "01"
+msgstr ""
+
+#: patterns/benefits-features.php:34
+msgid "Clear resource choices"
+msgstr ""
+
+#: patterns/benefits-features.php:34
+msgid "Show customers how CPU, memory, storage, and network options map to common workload needs."
+msgstr ""
+
+#: patterns/benefits-features.php:38
+#: patterns/service-grid.php:38
+msgid "02"
+msgstr ""
+
+#: patterns/benefits-features.php:38
+msgid "Visible ownership boundaries"
+msgstr ""
+
+#: patterns/benefits-features.php:38
+msgid "State which operating, monitoring, backup, and maintenance tasks belong to each party."
+msgstr ""
+
+#: patterns/benefits-features.php:42
+#: patterns/service-grid.php:46
+msgid "03"
+msgstr ""
+
+#: patterns/benefits-features.php:42
+msgid "Documented deployment steps"
+msgstr ""
+
+#: patterns/benefits-features.php:42
+msgid "Explain what happens after an order or request, including any review or configuration step."
+msgstr ""
+
+#: patterns/benefits-features.php:46
+#: patterns/service-grid.php:54
+msgid "04"
+msgstr ""
+
+#: patterns/benefits-features.php:46
+msgid "A practical growth path"
+msgstr ""
+
+#: patterns/benefits-features.php:46
+msgid "Describe how customers can review or change resources and note any limits that apply."
+msgstr ""
+
+#: patterns/blog-tutorials.php
+msgctxt "Pattern title"
+msgid "Blog and tutorials"
+msgstr ""
+
+#: patterns/blog-tutorials.php
+msgctxt "Pattern description"
+msgid "A lead article and chronological tutorial list using two Core Query Loops."
+msgstr ""
+
+#: patterns/blog-tutorials.php:16
+msgid "11 / LEARN"
+msgstr ""
+
+#: patterns/blog-tutorials.php:20
+msgid "Guides for planning and operating infrastructure."
+msgstr ""
+
+#: patterns/blog-tutorials.php:28
+msgid "LATEST ARTICLE"
+msgstr ""
+
+#: patterns/blog-tutorials.php:37
+msgid "Read the article"
+msgstr ""
+
+#: patterns/blog-tutorials.php:41
+msgid "Publish a post to feature the latest article here."
+msgstr ""
+
+#: patterns/blog-tutorials.php:51
+msgid "MORE TUTORIALS"
+msgstr ""
+
+#: patterns/blog-tutorials.php:70
+msgid "Additional posts will appear here in chronological order."
+msgstr ""
+
+#: patterns/data-center-locations.php
+msgctxt "Pattern title"
+msgid "Data-center locations"
+msgstr ""
+
+#: patterns/data-center-locations.php
+msgctxt "Pattern description"
+msgid "An editable regional directory with location codes and availability text."
+msgstr ""
+
+#: patterns/data-center-locations.php:18
+msgid "07 / LOCATIONS"
+msgstr ""
+
+#: patterns/data-center-locations.php:18
+msgid "Publish a location directory customers can read."
+msgstr ""
+
+#: patterns/data-center-locations.php:22
+msgid "Replace each region, city, code, and availability line with current information. No map is required."
+msgstr ""
+
+#: patterns/data-center-locations.php:30
+msgid "REGION 01"
+msgstr ""
+
+#: patterns/data-center-locations.php:30
+#: patterns/data-center-locations.php:34
+#: patterns/data-center-locations.php:38
+msgid "Region name"
+msgstr ""
+
+#: patterns/data-center-locations.php:30
+#: patterns/data-center-locations.php:34
+#: patterns/data-center-locations.php:38
+msgid "City / facility"
+msgstr ""
+
+#: patterns/data-center-locations.php:30
+msgid "Location code: CODE-01"
+msgstr ""
+
+#: patterns/data-center-locations.php:30
+#: patterns/data-center-locations.php:34
+#: patterns/data-center-locations.php:38
+msgid "Availability: replace with current status"
+msgstr ""
+
+#: patterns/data-center-locations.php:30
+msgid "Location code: CODE-02"
+msgstr ""
+
+#: patterns/data-center-locations.php:34
+msgid "REGION 02"
+msgstr ""
+
+#: patterns/data-center-locations.php:34
+msgid "Location code: CODE-03"
+msgstr ""
+
+#: patterns/data-center-locations.php:34
+msgid "Location code: CODE-04"
+msgstr ""
+
+#: patterns/data-center-locations.php:38
+msgid "REGION 03"
+msgstr ""
+
+#: patterns/data-center-locations.php:38
+msgid "Location code: CODE-05"
+msgstr ""
+
+#: patterns/data-center-locations.php:38
+msgid "Location code: CODE-06"
+msgstr ""
+
+#: patterns/faq.php
+msgctxt "Pattern title"
+msgid "VPS frequently asked questions"
+msgstr ""
+
+#: patterns/faq.php
+msgctxt "Pattern description"
+msgid "Common editable VPS questions built with native Details blocks."
+msgstr ""
+
+#: patterns/faq.php:14
+msgid "10 / QUESTIONS"
+msgstr ""
+
+#: patterns/faq.php:18
+msgid "Answer the questions that shape a server decision."
+msgstr ""
+
+#: patterns/faq.php:22
+msgid "Edit each answer to match your current service terms, technical scope, and support process."
+msgstr ""
+
+#: patterns/faq.php:28
+msgid "Which operating systems are available?"
+msgstr ""
+
+#: patterns/faq.php:28
+msgid "List the supported operating-system images, version policy, and any customer-supplied image option."
+msgstr ""
+
+#: patterns/faq.php:32
+msgid "Can I change the server resources later?"
+msgstr ""
+
+#: patterns/faq.php:32
+msgid "Describe which resources can change, the expected process, and any restart or migration requirement."
+msgstr ""
+
+#: patterns/faq.php:36
+msgid "What is included in the network allocation?"
+msgstr ""
+
+#: patterns/faq.php:36
+msgid "State the port, transfer allowance, measurement period, overage terms, and traffic-policy link."
+msgstr ""
+
+#: patterns/faq.php:40
+msgid "Who is responsible for backups and updates?"
+msgstr ""
+
+#: patterns/faq.php:40
+msgid "Clarify the customer and provider responsibilities for backups, operating-system updates, and recovery tests."
+msgstr ""
+
+#: patterns/faq.php:44
+msgid "How do I request support?"
+msgstr ""
+
+#: patterns/faq.php:44
+msgid "Add the configured support destinations, availability window, response expectations, and best use for each channel."
+msgstr ""
+
+#: patterns/final-cta.php
+msgctxt "Pattern title"
+msgid "Final call to action"
+msgstr ""
+
+#: patterns/final-cta.php
+msgctxt "Pattern description"
+msgid "A high-contrast closing command bar with one editable action."
+msgstr ""
+
+#: patterns/final-cta.php:18
+msgid "NEXT STEP"
+msgstr ""
+
+#: patterns/final-cta.php:22
+msgid "Ready to plan your next deployment?"
+msgstr ""
+
+#: patterns/final-cta.php:26
+msgid "Link this action to your own plan, quote, or contact destination. The theme does not process orders."
+msgstr ""
+
+#: patterns/final-cta.php:34
+msgid "Start a deployment conversation"
+msgstr ""
+
+#: patterns/footer-compact.php
+msgctxt "Pattern title"
+msgid "Compact footer"
+msgstr ""
+
+#: patterns/footer-compact.php
+msgctxt "Pattern description"
+msgid "A compact footer with site identity, legal links, and an editable copyright line."
+msgstr ""
+
+#: patterns/footer-compact.php:17
+msgid "Copyright notice — replace with your organization and year."
+msgstr ""
+
+#: patterns/footer-compact.php:20
+#: patterns/hidden-footer.php:30
+msgid "Legal navigation"
+msgstr ""
+
+#: patterns/footer-compact.php:21
+msgid "Privacy"
+msgstr ""
+
+#: patterns/footer-compact.php:22
+msgid "Terms"
+msgstr ""
+
+#: patterns/header-compact.php
+msgctxt "Pattern title"
+msgid "Compact header"
+msgstr ""
+
+#: patterns/header-compact.php
+msgctxt "Pattern description"
+msgid "A compact site identity, page navigation, and one editable action."
+msgstr ""
+
+#: patterns/header-compact.php:22
+#: patterns/hidden-header.php:28
+msgid "Primary navigation"
+msgstr ""
+
+#: patterns/header-compact.php:27
+msgid "View plans"
+msgstr ""
+
+#: patterns/hidden-404.php
+msgctxt "Pattern title"
+msgid "Internal 404 content"
+msgstr ""
+
+#: patterns/hidden-404.php
+msgctxt "Pattern description"
+msgid "Internal translatable content composition for the not-found template."
+msgstr ""
+
+#: patterns/hidden-404.php:15
+msgid "ERROR / 404"
+msgstr ""
+
+#: patterns/hidden-404.php:19
+msgid "Page not found"
+msgstr ""
+
+#: patterns/hidden-404.php:23
+msgid "The requested address may have changed or may no longer be available. Search the site or use the primary navigation to continue."
+msgstr ""
+
+#: patterns/hidden-404.php:26
+#: patterns/hidden-index.php:55
+#: patterns/hidden-search.php:21
+#: patterns/hidden-search.php:49
+msgid "Search"
+msgstr ""
+
+#: patterns/hidden-404.php:26
+#: patterns/hidden-index.php:55
+#: patterns/hidden-search.php:21
+msgid "Search this site"
+msgstr ""
+
+#: patterns/hidden-archive.php
+msgctxt "Pattern title"
+msgid "Internal archive content"
+msgstr ""
+
+#: patterns/hidden-archive.php
+msgctxt "Pattern description"
+msgid "Internal translatable content composition for archive templates."
+msgstr ""
+
+#: patterns/hidden-archive.php:17
+msgid "ARCHIVE / INDEX"
+msgstr ""
+
+#: patterns/hidden-archive.php:34
+#: patterns/hidden-home.php:41
+#: patterns/hidden-index.php:40
+msgid "Read article"
+msgstr ""
+
+#: patterns/hidden-archive.php:47
+msgid "Nothing published here yet"
+msgstr ""
+
+#: patterns/hidden-archive.php:48
+msgid "Use the site navigation to browse another section."
+msgstr ""
+
+#: patterns/hidden-footer.php
+msgctxt "Pattern title"
+msgid "Internal default footer"
+msgstr ""
+
+#: patterns/hidden-footer.php
+msgctxt "Pattern description"
+msgid "Internal translatable composition for the default footer template part."
+msgstr ""
+
+#: patterns/hidden-footer.php:18
+msgid "Clear infrastructure information, edited with native WordPress blocks."
+msgstr ""
+
+#: patterns/hidden-footer.php:22
+msgid "Explore"
+msgstr ""
+
+#: patterns/hidden-footer.php:22
+msgid "Explore navigation"
+msgstr ""
+
+#: patterns/hidden-footer.php:26
+msgid "Support"
+msgstr ""
+
+#: patterns/hidden-footer.php:26
+msgid "Add your support hours and preferred contact route."
+msgstr ""
+
+#: patterns/hidden-footer.php:26
+msgid "Support navigation"
+msgstr ""
+
+#: patterns/hidden-footer.php:26
+#: patterns/support-channels.php:30
+msgid "Documentation"
+msgstr ""
+
+#: patterns/hidden-footer.php:26
+msgid "Service status"
+msgstr ""
+
+#: patterns/hidden-footer.php:26
+msgid "Contact support"
+msgstr ""
+
+#: patterns/hidden-footer.php:30
+msgid "Legal"
+msgstr ""
+
+#: patterns/hidden-footer.php:30
+msgid "Privacy policy"
+msgstr ""
+
+#: patterns/hidden-footer.php:30
+msgid "Terms of service"
+msgstr ""
+
+#: patterns/hidden-footer.php:41
+msgid "Copyright notice — replace this text with your organization’s legal notice."
+msgstr ""
+
+#: patterns/hidden-header.php
+msgctxt "Pattern title"
+msgid "Internal default header"
+msgstr ""
+
+#: patterns/hidden-header.php
+msgctxt "Pattern description"
+msgid "Internal translatable composition for the default header template part."
+msgstr ""
+
+#: patterns/hidden-header.php:33
+msgid "Explore content"
+msgstr ""
+
+#: patterns/hidden-home.php
+msgctxt "Pattern title"
+msgid "Internal blog home content"
+msgstr ""
+
+#: patterns/hidden-home.php
+msgctxt "Pattern description"
+msgid "Internal translatable content composition for the blog home template."
+msgstr ""
+
+#: patterns/hidden-home.php:17
+msgid "JOURNAL / LATEST"
+msgstr ""
+
+#: patterns/hidden-home.php:21
+msgid "Articles and guides"
+msgstr ""
+
+#: patterns/hidden-home.php:25
+msgid "Technical notes, comparisons, and practical infrastructure guidance."
+msgstr ""
+
+#: patterns/hidden-home.php:54
+msgid "No articles yet"
+msgstr ""
+
+#: patterns/hidden-home.php:55
+msgid "Publish a post to begin the journal."
+msgstr ""
+
+#: patterns/hidden-index.php
+msgctxt "Pattern title"
+msgid "Internal index content"
+msgstr ""
+
+#: patterns/hidden-index.php
+msgctxt "Pattern description"
+msgid "Internal translatable content composition for the index template."
+msgstr ""
+
+#: patterns/hidden-index.php:17
+msgid "INDEX / CONTENT"
+msgstr ""
+
+#: patterns/hidden-index.php:21
+msgid "Latest content"
+msgstr ""
+
+#: patterns/hidden-index.php:25
+msgid "Browse articles, pages, and technical notes published on this site."
+msgstr ""
+
+#: patterns/hidden-index.php:53
+msgid "No content found"
+msgstr ""
+
+#: patterns/hidden-index.php:54
+msgid "Try a different search or use the navigation to explore the site."
+msgstr ""
+
+#: patterns/hidden-search.php
+msgctxt "Pattern title"
+msgid "Internal search content"
+msgstr ""
+
+#: patterns/hidden-search.php
+msgctxt "Pattern description"
+msgid "Internal translatable content composition for search results."
+msgstr ""
+
+#: patterns/hidden-search.php:17
+msgid "SEARCH / RESULTS"
+msgstr ""
+
+#: patterns/hidden-search.php:34
+msgid "Open result"
+msgstr ""
+
+#: patterns/hidden-search.php:47
+msgid "No matching content"
+msgstr ""
+
+#: patterns/hidden-search.php:48
+msgid "Check the spelling, try fewer words, or search for a broader term."
+msgstr ""
+
+#: patterns/hidden-search.php:49
+msgid "Search again"
+msgstr ""
+
+#: patterns/hidden-search.php:49
+msgid "Try another search"
+msgstr ""
+
+#: patterns/plan-comparison.php
+msgctxt "Pattern title"
+msgid "Plan comparison"
+msgstr ""
+
+#: patterns/plan-comparison.php
+msgctxt "Pattern description"
+msgid "A captioned plan table with editable example values and a mobile overflow cue."
+msgstr ""
+
+#: patterns/plan-comparison.php:16
+msgid "04 / COMPARE"
+msgstr ""
+
+#: patterns/plan-comparison.php:20
+msgid "Compare the complete specification."
+msgstr ""
+
+#: patterns/plan-comparison.php:24
+msgid "On a small screen, scroll the table horizontally to review every column."
+msgstr ""
+
+#: patterns/plan-comparison.php:30
+msgid "Plan"
+msgstr ""
+
+#: patterns/plan-comparison.php:30
+msgid "Price and period"
+msgstr ""
+
+#: patterns/plan-comparison.php:30
+#: patterns/server-specifications.php:30
+msgid "CPU"
+msgstr ""
+
+#: patterns/plan-comparison.php:30
+msgid "Memory"
+msgstr ""
+
+#: patterns/plan-comparison.php:30
+msgid "Storage"
+msgstr ""
+
+#: patterns/plan-comparison.php:30
+msgid "Network"
+msgstr ""
+
+#: patterns/plan-comparison.php:30
+msgid "Example 01"
+msgstr ""
+
+#: patterns/plan-comparison.php:30
+msgid "$00 / month"
+msgstr ""
+
+#: patterns/plan-comparison.php:30
+msgid "Replace value"
+msgstr ""
+
+#: patterns/plan-comparison.php:30
+msgid "Example 02"
+msgstr ""
+
+#: patterns/plan-comparison.php:30
+msgid "Example 03"
+msgstr ""
+
+#: patterns/plan-comparison.php:30
+msgid "Editable example plan comparison. Replace all prices, billing periods, and resource values before publishing."
+msgstr ""
+
+#: patterns/pricing-cards.php
+msgctxt "Pattern title"
+msgid "Pricing cards"
+msgstr ""
+
+#: patterns/pricing-cards.php
+msgctxt "Pattern description"
+msgid "Three editable example plans with explicit billing periods and resources."
+msgstr ""
+
+#: patterns/pricing-cards.php:16
+msgid "03 / EXAMPLE PLANS"
+msgstr ""
+
+#: patterns/pricing-cards.php:20
+msgid "Start with a resource profile you can explain."
+msgstr ""
+
+#: patterns/pricing-cards.php:24
+msgid "All prices, limits, and destinations below are editable placeholders. Replace them with current, verified information before publishing."
+msgstr ""
+
+#: patterns/pricing-cards.php:33
+msgid "EXAMPLE PLAN 01"
+msgstr ""
+
+#: patterns/pricing-cards.php:34
+msgid "Starter"
+msgstr ""
+
+#: patterns/pricing-cards.php:35
+#: patterns/pricing-cards.php:50
+#: patterns/pricing-cards.php:65
+msgid "$00"
+msgstr ""
+
+#: patterns/pricing-cards.php:36
+#: patterns/pricing-cards.php:51
+#: patterns/pricing-cards.php:66
+msgid "per month / example billing period"
+msgstr ""
+
+#: patterns/pricing-cards.php:37
+#: patterns/pricing-cards.php:52
+#: patterns/pricing-cards.php:67
+msgid "Replace CPU value"
+msgstr ""
+
+#: patterns/pricing-cards.php:37
+#: patterns/pricing-cards.php:52
+#: patterns/pricing-cards.php:67
+msgid "Replace memory value"
+msgstr ""
+
+#: patterns/pricing-cards.php:37
+#: patterns/pricing-cards.php:52
+#: patterns/pricing-cards.php:67
+msgid "Replace storage value"
+msgstr ""
+
+#: patterns/pricing-cards.php:37
+#: patterns/pricing-cards.php:52
+#: patterns/pricing-cards.php:67
+msgid "Replace network value"
+msgstr ""
+
+#: patterns/pricing-cards.php:38
+msgid "Choose Starter"
+msgstr ""
+
+#: patterns/pricing-cards.php:48
+msgid "EXAMPLE PLAN 02 / EMPHASIZED"
+msgstr ""
+
+#: patterns/pricing-cards.php:49
+msgid "Standard"
+msgstr ""
+
+#: patterns/pricing-cards.php:53
+msgid "Choose Standard"
+msgstr ""
+
+#: patterns/pricing-cards.php:63
+msgid "EXAMPLE PLAN 03"
+msgstr ""
+
+#: patterns/pricing-cards.php:64
+msgid "Advanced"
+msgstr ""
+
+#: patterns/pricing-cards.php:68
+msgid "Choose Advanced"
+msgstr ""
+
+#: patterns/security-ddos.php
+msgctxt "Pattern title"
+msgid "Security and DDoS"
+msgstr ""
+
+#: patterns/security-ddos.php
+msgctxt "Pattern description"
+msgid "A four-stage flow for documenting real traffic and security controls."
+msgstr ""
+
+#: patterns/security-ddos.php:16
+msgid "08 / SECURITY CONTROLS"
+msgstr ""
+
+#: patterns/security-ddos.php:20
+msgid "Describe how traffic is handled, stage by stage."
+msgstr ""
+
+#: patterns/security-ddos.php:24
+msgid "Document only the controls you operate. Add the scope, limitations, and verification source for any protection statement."
+msgstr ""
+
+#: patterns/security-ddos.php:30
+msgid "STAGE 01"
+msgstr ""
+
+#: patterns/security-ddos.php:30
+msgid "Inbound traffic"
+msgstr ""
+
+#: patterns/security-ddos.php:30
+msgid "Identify the networks and traffic types included in your documented process."
+msgstr ""
+
+#: patterns/security-ddos.php:34
+msgid "STAGE 02"
+msgstr ""
+
+#: patterns/security-ddos.php:34
+msgid "Filtering layer"
+msgstr ""
+
+#: patterns/security-ddos.php:34
+msgid "List the checks or mitigation controls that are actually present, including their limits."
+msgstr ""
+
+#: patterns/security-ddos.php:38
+msgid "STAGE 03"
+msgstr ""
+
+#: patterns/security-ddos.php:38
+msgid "Isolated service"
+msgstr ""
+
+#: patterns/security-ddos.php:38
+msgid "Explain the isolation boundary and which responsibilities remain with the customer."
+msgstr ""
+
+#: patterns/security-ddos.php:42
+msgid "STAGE 04"
+msgstr ""
+
+#: patterns/security-ddos.php:42
+msgid "Monitoring and response"
+msgstr ""
+
+#: patterns/security-ddos.php:42
+msgid "Describe the signal, escalation path, and response window your team has verified."
+msgstr ""
+
+#: patterns/security-ddos.php:48
+msgid "DDoS capacity, coverage, response, and compliance statements require a current source and defined scope."
+msgstr ""
+
+#: patterns/server-specifications.php
+msgctxt "Pattern title"
+msgid "Server specifications"
+msgstr ""
+
+#: patterns/server-specifications.php
+msgctxt "Pattern description"
+msgid "Technical resource metrics with fields for documented benchmark evidence."
+msgstr ""
+
+#: patterns/server-specifications.php:16
+msgid "05 / SPECIFICATION"
+msgstr ""
+
+#: patterns/server-specifications.php:20
+msgid "Put the resource profile in plain view."
+msgstr ""
+
+#: patterns/server-specifications.php:24
+msgid "Replace these example values with the exact allocation, limits, and terms for the selected server profile."
+msgstr ""
+
+#: patterns/server-specifications.php:30
+msgid "00 vCPU"
+msgstr ""
+
+#: patterns/server-specifications.php:30
+msgid "Editable allocation example"
+msgstr ""
+
+#: patterns/server-specifications.php:34
+msgid "MEMORY"
+msgstr ""
+
+#: patterns/server-specifications.php:34
+msgid "00 GB"
+msgstr ""
+
+#: patterns/server-specifications.php:34
+msgid "Editable memory example"
+msgstr ""
+
+#: patterns/server-specifications.php:38
+#: patterns/vps-hero.php:72
+msgid "STORAGE"
+msgstr ""
+
+#: patterns/server-specifications.php:38
+msgid "000 GB"
+msgstr ""
+
+#: patterns/server-specifications.php:38
+msgid "Editable storage example"
+msgstr ""
+
+#: patterns/server-specifications.php:42
+msgid "NETWORK"
+msgstr ""
+
+#: patterns/server-specifications.php:42
+msgid "0 Gbps"
+msgstr ""
+
+#: patterns/server-specifications.php:42
+msgid "Editable port example"
+msgstr ""
+
+#: patterns/server-specifications.php:50
+msgid "Benchmark evidence fields"
+msgstr ""
+
+#: patterns/server-specifications.php:54
+msgid "METHOD"
+msgstr ""
+
+#: patterns/server-specifications.php:54
+msgid "Tool and test method"
+msgstr ""
+
+#: patterns/server-specifications.php:54
+#: patterns/vps-hero.php:60
+msgid "REGION"
+msgstr ""
+
+#: patterns/server-specifications.php:54
+msgid "Test location"
+msgstr ""
+
+#: patterns/server-specifications.php:54
+msgid "HARDWARE"
+msgstr ""
+
+#: patterns/server-specifications.php:54
+msgid "Tested profile"
+msgstr ""
+
+#: patterns/server-specifications.php:54
+msgid "VERIFIED"
+msgstr ""
+
+#: patterns/server-specifications.php:54
+msgid "Month DD, YYYY"
+msgstr ""
+
+#: patterns/service-grid.php
+msgctxt "Pattern title"
+msgid "Service grid"
+msgstr ""
+
+#: patterns/service-grid.php
+msgctxt "Pattern description"
+msgid "Numbered service rows for infrastructure and managed-service offers."
+msgstr ""
+
+#: patterns/service-grid.php:16
+msgid "02 / SERVICES"
+msgstr ""
+
+#: patterns/service-grid.php:20
+msgid "Choose the service boundary that fits the work."
+msgstr ""
+
+#: patterns/service-grid.php:24
+msgid "Use these rows to explain what each service includes, who manages it, and where customers should go next."
+msgstr ""
+
+#: patterns/service-grid.php:30
+msgid "Virtual private servers"
+msgstr ""
+
+#: patterns/service-grid.php:30
+msgid "Describe the resource choices, management boundary, and workloads covered by this service."
+msgstr ""
+
+#: patterns/service-grid.php:30
+msgid "Explore VPS options"
+msgstr ""
+
+#: patterns/service-grid.php:38
+msgid "Cloud compute"
+msgstr ""
+
+#: patterns/service-grid.php:38
+msgid "Explain how instances, networks, and storage are organized in your current cloud offer."
+msgstr ""
+
+#: patterns/service-grid.php:38
+msgid "Review cloud compute"
+msgstr ""
+
+#: patterns/service-grid.php:46
+msgid "Dedicated servers"
+msgstr ""
+
+#: patterns/service-grid.php:46
+msgid "State the available hardware scope, deployment process, and support boundary without implying live stock."
+msgstr ""
+
+#: patterns/service-grid.php:46
+msgid "See server profiles"
+msgstr ""
+
+#: patterns/service-grid.php:54
+msgid "Managed infrastructure"
+msgstr ""
+
+#: patterns/service-grid.php:54
+msgid "List the operational tasks your team performs and the responsibilities that remain with the customer."
+msgstr ""
+
+#: patterns/service-grid.php:54
+msgid "Understand management scope"
+msgstr ""
+
+#: patterns/support-channels.php
+msgctxt "Pattern title"
+msgid "Support channels"
+msgstr ""
+
+#: patterns/support-channels.php
+msgctxt "Pattern description"
+msgid "Editable documentation, status, and contact destinations with availability notes."
+msgstr ""
+
+#: patterns/support-channels.php:16
+msgid "12 / SUPPORT"
+msgstr ""
+
+#: patterns/support-channels.php:20
+msgid "Send each question to a configured destination."
+msgstr ""
+
+#: patterns/support-channels.php:24
+msgid "These links are placeholders. Add only channels your organization currently operates."
+msgstr ""
+
+#: patterns/support-channels.php:30
+msgid "SELF-SERVICE"
+msgstr ""
+
+#: patterns/support-channels.php:30
+msgid "Best for setup instructions, service policies, and repeatable operating tasks."
+msgstr ""
+
+#: patterns/support-channels.php:30
+msgid "Availability: add the current publishing schedule"
+msgstr ""
+
+#: patterns/support-channels.php:30
+msgid "Open documentation"
+msgstr ""
+
+#: patterns/support-channels.php:34
+msgid "SERVICE INFORMATION"
+msgstr ""
+
+#: patterns/support-channels.php:34
+msgid "Status page"
+msgstr ""
+
+#: patterns/support-channels.php:34
+msgid "Best for current maintenance and incident information when a status page is configured."
+msgstr ""
+
+#: patterns/support-channels.php:34
+msgid "Availability: add the update policy"
+msgstr ""
+
+#: patterns/support-channels.php:34
+msgid "View service status"
+msgstr ""
+
+#: patterns/support-channels.php:38
+msgid "ASSISTED SUPPORT"
+msgstr ""
+
+#: patterns/support-channels.php:38
+msgid "Contact or ticket"
+msgstr ""
+
+#: patterns/support-channels.php:38
+msgid "Best for account-specific questions and issues that require a response from your team."
+msgstr ""
+
+#: patterns/support-channels.php:38
+msgid "Availability: add hours and response expectations"
+msgstr ""
+
+#: patterns/support-channels.php:38
+msgid "Contact the support team"
+msgstr ""
+
+#: patterns/testimonials.php
+msgctxt "Pattern title"
+msgid "Testimonials"
+msgstr ""
+
+#: patterns/testimonials.php
+msgctxt "Pattern description"
+msgid "Explicit quote and attribution placeholders without fictional identities or ratings."
+msgstr ""
+
+#: patterns/testimonials.php:16
+msgid "09 / CUSTOMER EVIDENCE"
+msgstr ""
+
+#: patterns/testimonials.php:20
+msgid "Add a real, sourced customer perspective."
+msgstr ""
+
+#: patterns/testimonials.php:24
+msgid "Customer quote"
+msgstr ""
+
+#: patterns/testimonials.php:24
+#: patterns/testimonials.php:30
+#: patterns/testimonials.php:34
+msgid "Customer name / Company"
+msgstr ""
+
+#: patterns/testimonials.php:30
+#: patterns/testimonials.php:34
+msgid "Optional customer quote"
+msgstr ""
+
+#: patterns/testimonials.php:40
+msgid "Publish only with the customer’s permission and a source your organization can verify."
+msgstr ""
+
+#: patterns/trust-strip.php
+msgctxt "Pattern title"
+msgid "Uptime and trust strip"
+msgstr ""
+
+#: patterns/trust-strip.php
+msgctxt "Pattern description"
+msgid "Four editable evidence fields with room for scope, source, and date."
+msgstr ""
+
+#: patterns/trust-strip.php:14
+msgid "Evidence you can verify."
+msgstr ""
+
+#: patterns/trust-strip.php:20
+msgid "EVIDENCE 01"
+msgstr ""
+
+#: patterns/trust-strip.php:20
+#: patterns/trust-strip.php:24
+#: patterns/trust-strip.php:28
+#: patterns/trust-strip.php:32
+msgid "Verified fact or metric"
+msgstr ""
+
+#: patterns/trust-strip.php:20
+#: patterns/trust-strip.php:24
+#: patterns/trust-strip.php:28
+#: patterns/trust-strip.php:32
+msgid "Scope / source / verified date"
+msgstr ""
+
+#: patterns/trust-strip.php:24
+msgid "EVIDENCE 02"
+msgstr ""
+
+#: patterns/trust-strip.php:28
+msgid "EVIDENCE 03"
+msgstr ""
+
+#: patterns/trust-strip.php:32
+msgid "EVIDENCE 04"
+msgstr ""
+
+#: patterns/vps-hero.php
+msgctxt "Pattern title"
+msgid "VPS hero"
+msgstr ""
+
+#: patterns/vps-hero.php
+msgctxt "Pattern description"
+msgid "A split hero with clear actions and an editable server blueprint."
+msgstr ""
+
+#: patterns/vps-hero.php:18
+msgid "01 / VIRTUAL SERVERS"
+msgstr ""
+
+#: patterns/vps-hero.php:22
+msgid "Virtual servers without the fog."
+msgstr ""
+
+#: patterns/vps-hero.php:26
+msgid "Choose a location, operating system, and resource profile. Keep the specification clear as your workload changes."
+msgstr ""
+
+#: patterns/vps-hero.php:32
+msgid "Compare VPS plans"
+msgstr ""
+
+#: patterns/vps-hero.php:36
+msgid "View server locations"
+msgstr ""
+
+#: patterns/vps-hero.php:48
+msgid "NODE PROFILE / EDITABLE EXAMPLE"
+msgstr ""
+
+#: patterns/vps-hero.php:52
+msgid "Deployment blueprint"
+msgstr ""
+
+#: patterns/vps-hero.php:60
+msgid "Region / city"
+msgstr ""
+
+#: patterns/vps-hero.php:64
+msgid "PLATFORM"
+msgstr ""
+
+#: patterns/vps-hero.php:64
+msgid "Virtualization type"
+msgstr ""
+
+#: patterns/vps-hero.php:68
+msgid "COMPUTE"
+msgstr ""
+
+#: patterns/vps-hero.php:68
+msgid "4 vCPU / 8 GB example"
+msgstr ""
+
+#: patterns/vps-hero.php:72
+msgid "160 GB example"
+msgstr ""
+
+#: patterns/vps-hero.php:76
+msgid "Replace every example value with a current, verified specification."
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Color name"
+msgid "Canvas"
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Color name"
+msgid "Surface"
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Color name"
+msgid "Surface Alternate"
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Color name"
+msgid "Ink"
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Color name"
+msgid "Muted"
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Color name"
+msgid "Line"
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Color name"
+msgid "Signal"
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Color name"
+msgid "Action"
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Color name"
+msgid "Positive"
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Color name"
+msgid "Warning"
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Color name"
+msgid "Focus"
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Shadow name"
+msgid "None"
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Shadow name"
+msgid "Featured"
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Space size name"
+msgid "2X Small"
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Space size name"
+msgid "X Small"
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Space size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Space size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Space size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Space size name"
+msgid "X Large"
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Space size name"
+msgid "2X Large"
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Space size name"
+msgid "Section"
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Space size name"
+msgid "2X Section"
+msgstr ""
+
+#: theme.json
+#: styles/dark-infrastructure.json
+#: styles/high-contrast.json
+#: styles/light-business.json
+msgctxt "Space size name"
+msgid "Gutter"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Technical"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Mono"
+msgstr ""
+
+#: theme.json
+#: styles/high-contrast.json
+msgctxt "Font family name"
+msgid "System Sans"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Micro"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "2X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "3X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page without title"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank / Landing"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Minimal header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Minimal footer"
+msgstr ""
+
+#: styles/dark-infrastructure.json
+msgctxt "Style variation name"
+msgid "Dark Infrastructure"
+msgstr ""
+
+#: styles/high-contrast.json
+msgctxt "Style variation name"
+msgid "High Contrast"
+msgstr ""
+
+#: styles/high-contrast.json
+msgctxt "Font family name"
+msgid "Primary System Sans"
+msgstr ""
+
+#: styles/high-contrast.json
+msgctxt "Font family name"
+msgid "Technical System Sans"
+msgstr ""
+
+#: styles/high-contrast.json
+msgctxt "Font family name"
+msgid "Mono System Sans"
+msgstr ""
+
+#: styles/light-business.json
+msgctxt "Style variation name"
+msgid "Light Business"
+msgstr ""

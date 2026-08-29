@@ -1,0 +1,51 @@
+name: Validate theme
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          coverage: none
+
+      - name: Install PHP quality tools
+        run: composer install --no-interaction --no-progress --prefer-dist
+
+      - name: Validate theme structure and budgets
+        run: node scripts/validate-theme.mjs
+
+      - name: Lint PHP
+        shell: bash
+        run: find . -type f -name '*.php' -not -path './dist/*' -print0 | xargs -0 -n1 php -l
+
+      - name: Check WordPress coding standards and PHP compatibility
+        run: composer lint
+
+      - name: Build release ZIP
+        shell: pwsh
+        run: ./scripts/build-release.ps1
+
+      - name: Upload installable artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: monovm-vps-1.0.0
+          path: |
+            dist/monovm-vps-1.0.0.zip
+            dist/monovm-vps-1.0.0.zip.sha256

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "latest"
+  },
+  "login": true,
+  "plugins": [
+    {
+      "resource": "wordpress.org/plugins",
+      "slug": "theme-check"
+    }
+  ],
+  "steps": [
+    {
+      "step": "activateTheme",
+      "themeFolderName": "monovm-vps"
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "blogname": "Atlas Compute",
+        "blogdescription": "Virtual infrastructure, clearly presented"
+      }
+    }
+  ]
+}

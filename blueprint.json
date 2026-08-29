@@ -1,0 +1,31 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "latest"
+  },
+  "phpExtensionBundles": [
+    "kitchen-sink"
+  ],
+  "landingPage": "/",
+  "login": true,
+  "steps": [
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "blogname": "Atlas Compute",
+        "blogdescription": "Virtual infrastructure, clearly presented"
+      }
+    },
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "url",
+        "url": "https://github.com/monovm/monovm-vps-hosting-wordpress-theme/releases/download/1.0.0/monovm-vps-1.0.0.zip"
+      },
+      "options": {
+        "activate": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+/dist/
+/vendor/
+/.wordpress-playground/
+/.phpcs-cache
+/.DS_Store
+Thumbs.db
+*.log

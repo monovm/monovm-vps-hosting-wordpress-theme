@@ -1,0 +1,16 @@
+.distignore
+.gitignore
+.github
+CHANGELOG.md
+CONTRIBUTING.md
+README.md
+SECURITY.md
+blueprint.json
+composer.json
+composer.lock
+dist
+docs
+phpcs.xml.dist
+scripts
+tests
+vendor

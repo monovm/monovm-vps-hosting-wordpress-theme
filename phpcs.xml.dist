@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<ruleset name="MonoVM VPS">
+	<description>WordPress.org coding and PHP compatibility standards for the theme.</description>
+
+	<file>functions.php</file>
+	<file>patterns</file>
+
+	<arg name="basepath" value="."/>
+	<arg name="colors"/>
+	<arg value="ps"/>
+	<arg name="extensions" value="php"/>
+
+	<config name="minimum_supported_wp_version" value="6.6"/>
+	<config name="testVersion" value="7.4-"/>
+
+	<rule ref="WordPress">
+		<!-- Theme pattern metadata uses the entire opening docblock. -->
+		<exclude name="Squiz.Commenting.FileComment.MissingPackageTag"/>
+		<exclude name="Squiz.Commenting.FileComment.SpacingAfterComment"/>
+	</rule>
+	<rule ref="PHPCompatibilityWP"/>
+
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="monovm-vps"/>
+			</property>
+		</properties>
+	</rule>
+
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+		<properties>
+			<property name="prefixes" type="array">
+				<element value="MONOVM_VPS"/>
+				<element value="monovm_vps"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>
