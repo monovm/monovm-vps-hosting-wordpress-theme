@@ -21,6 +21,23 @@ and the remaining publication prerequisite are recorded in the
 The images below come from a clean WordPress installation running the theme.
 They can also be reused on the MonoVM download page.
 
+### One-click live demo
+
+The public repository includes a deterministic WordPress Playground Blueprint
+that installs the theme and creates the complete starter site automatically.
+It seeds Home, Services, VPS Hosting, Cloud Hosting, Dedicated Servers, Pricing,
+Network Locations, About, Contact, Support, and Blog pages, three example
+articles, and hierarchical navigation.
+
+[Launch the live demo in WordPress Playground](https://playground.wordpress.net/?blueprint-url=https%3A%2F%2Fraw.githubusercontent.com%2Fmonovm%2Fmonovm-vps-hosting-wordpress-theme%2Fmain%2Fblueprint.json&storage=temp)
+
+The link becomes available when the GitHub repository is public. To regenerate
+the committed Blueprint after editing the demo content, run:
+
+```sh
+node scripts/build-playground-blueprint.mjs
+```
+
 ### Homepage
 
 ![MonoVM Blueprint desktop homepage](docs/previews/homepage-desktop.png)
@@ -44,6 +61,8 @@ They can also be reused on the MonoVM download page.
 - Dark Infrastructure, Light Business, and High Contrast style variations.
 - Local IBM Plex Sans and IBM Plex Mono variable-font subsets.
 - A WordPress Playground blueprint and deterministic release-packaging script.
+- A complete eleven-page Playground demo with three example articles and
+  hierarchical navigation.
 - Zero theme-authored front-end JavaScript and no remote runtime dependency.
 
 ## Requirements

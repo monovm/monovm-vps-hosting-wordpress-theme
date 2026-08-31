@@ -2,6 +2,15 @@
 
 All notable changes to MonoVM Blueprint are documented in this file.
 
+## Unreleased
+
+### Added
+
+- Deterministic WordPress Playground demo content with eleven pages, three
+  example articles, front-page and posts-page settings, and hierarchical
+  navigation.
+- Generated local QA Blueprint and a one-click public Playground link.
+
 ## [1.0.0] - 2026-08-31
 
 ### Added

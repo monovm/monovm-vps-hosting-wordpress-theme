@@ -21,6 +21,6 @@
   },
   "scripts": {
     "lint": "phpcs --standard=phpcs.xml.dist",
-    "validate": "node scripts/validate-theme.mjs"
+    "validate": "node scripts/build-playground-blueprint.mjs --check && node scripts/validate-theme.mjs"
   }
 }

@@ -20,17 +20,8 @@
   "landingPage": "/",
   "steps": [
     {
-      "step": "installTheme",
-      "themeData": {
-        "resource": "git:directory",
-        "url": "https://github.com/monovm/monovm-vps-hosting-wordpress-theme",
-        "ref": "main",
-        "refType": "branch"
-      },
-      "options": {
-        "activate": true,
-        "targetFolderName": "monovm-blueprint"
-      }
+      "step": "activateTheme",
+      "themeFolderName": "monovm-blueprint"
     },
     {
       "step": "runPHP",
