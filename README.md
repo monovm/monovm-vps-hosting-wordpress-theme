@@ -1,15 +1,15 @@
-# MonoVM VPS
+# MonoVM Blueprint
 
-MonoVM VPS is an English-first, native WordPress block theme for VPS, cloud,
+MonoVM Blueprint is an English-first, native WordPress block theme for VPS, cloud,
 server, hosting, and managed-infrastructure businesses. It provides a complete,
 editable marketing-site foundation without a page builder, required plugin,
 remote service, or theme-specific content model.
 
 ## Project status
 
-Version 1.0.0 implementation is complete as of August 11, 2026. The theme
+Version 1.0.0 implementation is complete as of August 31, 2026. The theme
 requires WordPress 6.6 or later and PHP 7.4 or later; its current public
-compatibility metadata is tested up to WordPress 7.0.
+compatibility metadata is tested up to WordPress 7.1.
 
 Static checks, WordPress Theme Check, minimum-version runtime testing, responsive
 browser checks, and deterministic package validation pass. The exact evidence
@@ -35,11 +35,11 @@ and the remaining publication prerequisite are recorded in the
 
 ## Installation
 
-1. Download or build the installable `monovm-vps` ZIP file.
+1. Download or build the installable `monovm-blueprint` ZIP file.
 2. In WordPress, open Appearance > Themes > Add New > Upload Theme.
 3. Install and activate the theme.
 4. Open Appearance > Editor to choose a style, edit site identity and navigation,
-   and assemble pages with the MonoVM VPS patterns.
+   and assemble pages with the MonoVM Blueprint patterns.
 5. Replace every sample price, specification, destination, and placeholder
    before publishing.
 
@@ -73,7 +73,7 @@ Create a clean distribution ZIP with PowerShell:
 
 ## Product boundary
 
-MonoVM VPS provides presentation only. Billing, checkout, WHMCS integration,
+MonoVM Blueprint provides presentation only. Billing, checkout, WHMCS integration,
 domain lookup, provisioning, account management, ticketing, forms, analytics,
 and other business behavior belong in plugins or external services chosen by
 the site owner.
@@ -89,6 +89,6 @@ artifact is published.
 
 ## License
 
-MonoVM VPS is licensed under GPL-2.0-or-later. Bundled IBM Plex font subsets are
+MonoVM Blueprint is licensed under GPL-2.0-or-later. Bundled IBM Plex font subsets are
 licensed under the SIL Open Font License 1.1; full provenance is recorded in
 `assets/fonts/README.md`.

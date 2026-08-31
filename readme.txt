@@ -1,7 +1,7 @@
-=== MonoVM VPS ===
+=== MonoVM Blueprint ===
 Contributors: monovm
 Requires at least: 6.6
-Tested up to: 7.0
+Tested up to: 7.1
 Requires PHP: 7.4
 Stable tag: 1.0.0
 License: GNU General Public License v2 or later
@@ -12,7 +12,7 @@ An editorial block theme for VPS, cloud, server, and hosting business websites.
 
 == Description ==
 
-MonoVM VPS is an English-first, translation-ready block theme for VPS, cloud,
+MonoVM Blueprint is an English-first, translation-ready block theme for VPS, cloud,
 server, and hosting businesses. Its focused visual system turns technical
 services, plan comparisons, locations, security information, support paths,
 and educational content into clear, editable pages.
@@ -22,18 +22,18 @@ and a collection of hosting-specific patterns. Everything is built with Core
 WordPress blocks and the Site Editor. There is no page-builder dependency,
 required plugin, remote service, or theme-specific content type.
 
-MonoVM VPS provides presentation only. Billing, checkout, provisioning, domain
+MonoVM Blueprint provides presentation only. Billing, checkout, provisioning, domain
 search, account management, ticketing, forms, and other business functionality
 belong in plugins or external services chosen by the site owner.
 
 == Installation ==
 
 1. In the WordPress dashboard, go to Appearance > Themes > Add New.
-2. Select Upload Theme and choose the MonoVM VPS ZIP file.
+2. Select Upload Theme and choose the MonoVM Blueprint ZIP file.
 3. Select Install Now, then Activate.
 4. Open Appearance > Editor to customize global styles, navigation, templates,
    and template parts.
-5. Add a page or edit a template, then open Patterns and choose MonoVM VPS to
+5. Add a page or edit a template, then open Patterns and choose MonoVM Blueprint to
    insert the supplied page sections.
 6. Replace every sample price, specification, destination, and placeholder with
    information that is accurate for your business.
@@ -47,7 +47,7 @@ plugins may be added for functionality that your site needs.
 
 = Does the theme include billing, checkout, WHMCS, or VPS provisioning? =
 
-No. MonoVM VPS is a presentation theme. Connect buttons and navigation to the
+No. MonoVM Blueprint is a presentation theme. Connect buttons and navigation to the
 billing, checkout, account, or provisioning system selected by your business.
 
 = Does the theme perform domain availability checks? =
@@ -69,7 +69,7 @@ variations as a starting point.
 = Is the theme translation-ready? =
 
 Yes. Theme interface and pattern strings are prepared for translation under
-the `monovm-vps` text domain. Version 1.0 does not claim dedicated RTL support.
+the `monovm-blueprint` text domain. Version 1.0 does not claim dedicated RTL support.
 
 = Does the theme load fonts, scripts, or content from MonoVM? =
 
@@ -84,7 +84,7 @@ switch.
 
 == Privacy ==
 
-MonoVM VPS itself collects, stores, and transmits no personal data. It makes no
+MonoVM Blueprint itself collects, stores, and transmits no personal data. It makes no
 external requests and sets no cookies. WordPress, plugins, embedded content,
 analytics, fonts, forms, or external services added by a site owner may have
 their own privacy behavior and should be reviewed separately.
@@ -102,11 +102,11 @@ their own privacy behavior and should be reviewed separately.
 
 = 1.0.0 =
 
-Initial release of MonoVM VPS.
+Initial release of MonoVM Blueprint.
 
 == Resources ==
 
-MonoVM VPS is distributed under the terms of the GNU General Public License,
+MonoVM Blueprint is distributed under the terms of the GNU General Public License,
 version 2 or any later version.
 
 All theme artwork is created from WordPress Core blocks and CSS.

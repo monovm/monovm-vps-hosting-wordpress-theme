@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Compact header
- * Slug: monovm-vps/header-compact
- * Categories: monovm-vps, header
+ * Slug: monovm-blueprint/header-compact
+ * Categories: monovm-blueprint, header
  * Description: A compact site identity, page navigation, and one editable action.
  * Viewport Width: 1280
  * Block Types: core/template-part/header
@@ -19,12 +19,12 @@
 
 		<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"right"}} -->
 		<div class="wp-block-group">
-			<!-- wp:navigation {"overlayMenu":"mobile","overlayBackgroundColor":"surface","overlayTextColor":"ink","ariaLabel":<?php echo wp_json_encode( __( 'Primary navigation', 'monovm-vps' ) ); ?>,"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"}} -->
+			<!-- wp:navigation {"overlayMenu":"mobile","overlayBackgroundColor":"surface","overlayTextColor":"ink","ariaLabel":<?php echo wp_json_encode( __( 'Primary navigation', 'monovm-blueprint' ) ); ?>,"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"}} -->
 				<!-- wp:page-list /-->
 			<!-- /wp:navigation -->
 
 			<!-- wp:buttons -->
-			<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"action","textColor":"canvas","fontSize":"small"} --><div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link has-canvas-color has-action-background-color has-text-color has-background wp-element-button" href="#"><?php echo esc_html__( 'View plans', 'monovm-vps' ); ?></a></div><!-- /wp:button --></div>
+			<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"action","textColor":"canvas","fontSize":"small"} --><div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link has-canvas-color has-action-background-color has-text-color has-background wp-element-button" href="#"><?php echo esc_html__( 'View plans', 'monovm-blueprint' ); ?></a></div><!-- /wp:button --></div>
 			<!-- /wp:buttons -->
 		</div>
 		<!-- /wp:group -->

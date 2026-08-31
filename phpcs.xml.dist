@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="MonoVM VPS">
+<ruleset name="MonoVM Blueprint">
 	<description>WordPress.org coding and PHP compatibility standards for the theme.</description>
 
 	<file>functions.php</file>
@@ -23,7 +23,7 @@
 	<rule ref="WordPress.WP.I18n">
 		<properties>
 			<property name="text_domain" type="array">
-				<element value="monovm-vps"/>
+				<element value="monovm-blueprint"/>
 			</property>
 		</properties>
 	</rule>
@@ -31,8 +31,8 @@
 	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
 		<properties>
 			<property name="prefixes" type="array">
-				<element value="MONOVM_VPS"/>
-				<element value="monovm_vps"/>
+				<element value="MONOVM_BLUEPRINT"/>
+				<element value="monovm_blueprint"/>
 			</property>
 		</properties>
 	</rule>

@@ -2,7 +2,7 @@
 
 ## Supported versions
 
-Security fixes are provided for the latest released version of MonoVM VPS.
+Security fixes are provided for the latest released version of MonoVM Blueprint.
 
 | Version | Supported |
 |---|---|

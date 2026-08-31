@@ -1,10 +1,10 @@
-# MonoVM VPS 1.0 Design Brief
+# MonoVM Blueprint 1.0 Design Brief
 
 ## Creative direction
 
 **Core idea: Infrastructure, made legible.**
 
-MonoVM VPS should look like an editorial control plane: precise, calm,
+MonoVM Blueprint should look like an editorial control plane: precise, calm,
 measurable, and technically credible. It should feel closer to a well-designed
 infrastructure dashboard or engineering publication than to a conventional
 hosting template.

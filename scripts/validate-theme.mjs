@@ -102,8 +102,8 @@ if (fs.existsSync(stylePath)) {
     }
   }
 
-  if (!/^Text Domain:\s*monovm-vps\s*$/m.test(style)) {
-    fail('style.css Text Domain must be monovm-vps');
+  if (!/^Text Domain:\s*monovm-blueprint\s*$/m.test(style)) {
+    fail('style.css Text Domain must be monovm-blueprint');
   }
 
   if (!/^Version:\s*1\.0\.0\s*$/m.test(style)) {
@@ -166,12 +166,12 @@ const discoveredPatternSlugs = new Set();
 
 for (const file of patternFiles) {
   const content = fs.readFileSync(file, 'utf8');
-  const slugMatch = content.match(/^\s*\*\s+Slug:\s+monovm-vps\/([a-z0-9-]+)\s*$/m);
+  const slugMatch = content.match(/^\s*\*\s+Slug:\s+monovm-blueprint\/([a-z0-9-]+)\s*$/m);
   if (!/^\s*\*\s+Title:\s+\S/m.test(content)) {
     fail(`${relative(file)} is missing a pattern Title header`);
   }
   if (!slugMatch) {
-    fail(`${relative(file)} is missing a valid monovm-vps pattern Slug header`);
+    fail(`${relative(file)} is missing a valid monovm-blueprint pattern Slug header`);
   } else if (discoveredPatternSlugs.has(slugMatch[1])) {
     fail(`Duplicate pattern slug: ${slugMatch[1]}`);
   } else {
@@ -180,8 +180,8 @@ for (const file of patternFiles) {
   if (!/^\s*\*\s+Categories:\s+\S/m.test(content)) {
     fail(`${relative(file)} is missing a pattern Categories header`);
   }
-  if (!content.includes("'monovm-vps'")) {
-    fail(`${relative(file)} does not contain the monovm-vps text domain`);
+  if (!content.includes("'monovm-blueprint'")) {
+    fail(`${relative(file)} does not contain the monovm-blueprint text domain`);
   }
   if (slugMatch && expectedInternalPatternSlugs.has(slugMatch[1]) && !/^\s*\*\s+Inserter:\s+no\s*$/mi.test(content)) {
     fail(`${relative(file)} must declare Inserter: no`);

@@ -1,6 +1,6 @@
 {
   "name": "monovm/monovm-vps-hosting-wordpress-theme",
-  "description": "Development tools for the MonoVM VPS WordPress block theme.",
+  "description": "Development tools for the MonoVM Blueprint WordPress block theme.",
   "type": "wordpress-theme",
   "license": "GPL-2.0-or-later",
   "require": {

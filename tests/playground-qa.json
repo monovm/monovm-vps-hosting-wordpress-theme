@@ -14,7 +14,7 @@
   "steps": [
     {
       "step": "activateTheme",
-      "themeFolderName": "monovm-vps"
+      "themeFolderName": "monovm-blueprint"
     },
     {
       "step": "setSiteOptions",

@@ -113,7 +113,7 @@ input[type="submit"]:hover {
 }
 
 :where(pre, code, kbd, samp),
-.monovm-vps-metric,
+.monovm-blueprint-metric,
 .post-meta {
 	font-family: var(--wp--preset--font-family--technical);
 	font-variant-numeric: tabular-nums;
@@ -147,37 +147,37 @@ input[type="submit"]:hover {
 	padding-inline-start: var(--wp--preset--spacing--60);
 }
 
-:where(.wp-block-table, .monovm-vps-table-wrap) {
+:where(.wp-block-table, .monovm-blueprint-table-wrap) {
 	max-inline-size: 100%;
 	overflow-x: auto;
 	overscroll-behavior-inline: contain;
 	scrollbar-color: var(--wp--preset--color--signal) var(--wp--preset--color--surface);
 }
 
-:where(.wp-block-table table, .monovm-vps-table-wrap table) {
+:where(.wp-block-table table, .monovm-blueprint-table-wrap table) {
 	border-collapse: collapse;
 	inline-size: 100%;
 }
 
-.monovm-vps-table-wrap table {
+.monovm-blueprint-table-wrap table {
 	min-inline-size: 42rem;
 }
 
-:where(.wp-block-table caption, .monovm-vps-table-wrap caption) {
+:where(.wp-block-table caption, .monovm-blueprint-table-wrap caption) {
 	color: var(--wp--preset--color--muted);
 	font-size: var(--wp--preset--font-size--small);
 	padding-block-end: var(--wp--preset--spacing--40);
 	text-align: start;
 }
 
-:where(.wp-block-table th, .wp-block-table td, .monovm-vps-table-wrap th, .monovm-vps-table-wrap td) {
+:where(.wp-block-table th, .wp-block-table td, .monovm-blueprint-table-wrap th, .monovm-blueprint-table-wrap td) {
 	border-color: var(--wp--preset--color--line);
 	padding: var(--wp--preset--spacing--50);
 	text-align: start;
 	vertical-align: top;
 }
 
-:where(.wp-block-table th, .monovm-vps-table-wrap th) {
+:where(.wp-block-table th, .monovm-blueprint-table-wrap th) {
 	font-family: var(--wp--preset--font-family--technical);
 	font-size: var(--wp--preset--font-size--small);
 	font-weight: 650;
@@ -257,12 +257,12 @@ input[type="submit"]:hover {
 	min-block-size: 55vh;
 }
 
-.monovm-vps-section {
+.monovm-blueprint-section {
 	min-inline-size: 0;
 	position: relative;
 }
 
-.monovm-vps-kicker {
+.monovm-blueprint-kicker {
 	color: var(--wp--preset--color--signal);
 	font-family: var(--wp--custom--label--font-family, var(--wp--preset--font-family--technical));
 	font-size: var(--wp--preset--font-size--micro);
@@ -272,7 +272,7 @@ input[type="submit"]:hover {
 	text-transform: uppercase;
 }
 
-:where(.monovm-vps-panel, .monovm-vps-blueprint, .monovm-vps-featured-plan) {
+:where(.monovm-blueprint-panel, .monovm-blueprint-blueprint, .monovm-blueprint-featured-plan) {
 	border-color: var(--wp--preset--color--line);
 	border-radius: var(--wp--custom--radius--panel, 4px);
 	border-style: solid;
@@ -280,7 +280,7 @@ input[type="submit"]:hover {
 	min-inline-size: 0;
 }
 
-.monovm-vps-blueprint {
+.monovm-blueprint-blueprint {
 	background-color: var(--wp--preset--color--surface);
 	background-image:
 		linear-gradient(var(--wp--preset--color--line) 1px, transparent 1px),
@@ -288,18 +288,18 @@ input[type="submit"]:hover {
 	background-size: 2rem 2rem;
 }
 
-.monovm-vps-metric {
+.monovm-blueprint-metric {
 	font-weight: 600;
 	overflow-wrap: anywhere;
 }
 
-.monovm-vps-featured-plan {
+.monovm-blueprint-featured-plan {
 	border-inline-start-color: var(--wp--preset--color--signal);
 	border-inline-start-width: calc(var(--wp--custom--border--width, 1px) * 2);
 	box-shadow: var(--wp--preset--shadow--featured);
 }
 
-.monovm-vps-flow {
+.monovm-blueprint-flow {
 	display: grid;
 	gap: var(--wp--preset--spacing--50);
 	grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -307,13 +307,13 @@ input[type="submit"]:hover {
 	padding-inline-start: 0;
 }
 
-.monovm-vps-flow > * {
+.monovm-blueprint-flow > * {
 	border-block-start: calc(var(--wp--custom--border--width, 1px) * 2) solid var(--wp--preset--color--signal);
 	min-inline-size: 0;
 	padding-block-start: var(--wp--preset--spacing--50);
 }
 
-.monovm-vps-command-bar {
+.monovm-blueprint-command-bar {
 	border: var(--wp--custom--border--width, 1px) solid var(--wp--preset--color--line);
 	border-radius: var(--wp--custom--radius--panel, 4px);
 }
@@ -323,24 +323,24 @@ input[type="submit"]:hover {
 		margin-inline-start: 0;
 	}
 
-	.monovm-vps-flow {
+	.monovm-blueprint-flow {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
 
-	.monovm-vps-blueprint {
+	.monovm-blueprint-blueprint {
 		background-image: linear-gradient(var(--wp--preset--color--line) 1px, transparent 1px);
 		background-size: 100% 2rem;
 	}
 }
 
 @media (max-width: 479px) {
-	.monovm-vps-flow {
+	.monovm-blueprint-flow {
 		grid-template-columns: minmax(0, 1fr);
 	}
 
-	.monovm-vps-command-bar .wp-block-buttons,
-	.monovm-vps-command-bar .wp-block-button,
-	.monovm-vps-command-bar .wp-block-button__link {
+	.monovm-blueprint-command-bar .wp-block-buttons,
+	.monovm-blueprint-command-bar .wp-block-button,
+	.monovm-blueprint-command-bar .wp-block-button__link {
 		inline-size: 100%;
 	}
 }
@@ -350,11 +350,11 @@ input[type="submit"]:hover {
 		outline-color: Highlight;
 	}
 
-	:where(.monovm-vps-panel, .monovm-vps-blueprint, .monovm-vps-featured-plan, .monovm-vps-command-bar) {
+	:where(.monovm-blueprint-panel, .monovm-blueprint-blueprint, .monovm-blueprint-featured-plan, .monovm-blueprint-command-bar) {
 		border-color: CanvasText;
 	}
 
-	.monovm-vps-blueprint {
+	.monovm-blueprint-blueprint {
 		background-image: none;
 	}
 }

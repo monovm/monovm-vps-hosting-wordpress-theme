@@ -1,12 +1,12 @@
-# MonoVM VPS 1.0 Product Specification
+# MonoVM Blueprint 1.0 Product Specification
 
 ## Document status
 
 - **Decision:** Approved for specification and design
 - **Implementation:** Not started
 - **Target version:** 1.0.0
-- **Working theme name:** MonoVM VPS
-- **Slug and text domain:** `monovm-vps`
+- **Working theme name:** MonoVM Blueprint
+- **Slug and text domain:** `monovm-blueprint`
 - **Default language:** English
 - **License:** GPL-2.0-or-later
 
@@ -22,7 +22,7 @@ one working day. This is a validation target, not copy for the public listing.
 
 ## Strategic intent
 
-MonoVM VPS is a single brand-aligned theme, not the start of a theme farm. Its
+MonoVM Blueprint is a single brand-aligned theme, not the start of a theme farm. Its
 value does not depend on becoming viral. It should demonstrate MonoVM's domain
 expertise, create a useful open-source asset, and establish a maintainable
 presence on WordPress.org and GitHub.
@@ -234,7 +234,7 @@ any other custom post type or taxonomy.
 - Requires WordPress 6.6 or later.
 - Requires PHP 7.4 or later.
 - Tested on the latest stable WordPress release at package time.
-- Test baseline at specification time: WordPress 6.6 and 7.0.3.
+- Test baseline for release: WordPress 6.6 and 7.1.
 - Test WordPress 7.1 after its stable release; an RC result is not a public
   compatibility claim.
 - PHP test matrix: 7.4, 8.1, and 8.3.
@@ -267,14 +267,14 @@ additional WordPress.org review path are approved.
 
 - No telemetry, tracking, cookies, external updater, or data transmission.
 - No user input handled by theme-owned endpoints.
-- Any required PHP uses the `monovm_vps_` / `MONOVM_VPS_` prefix, sanitizes
+- Any required PHP uses the `monovm_blueprint_` / `MONOVM_BLUEPRINT_` prefix, sanitizes
   input, escapes untrusted output, and applies capabilities/nonces where relevant.
 - No secret, credential, environment path, or internal service URL is packaged.
 
 ### Language
 
 - English sample content, listing, demo, screenshot, support, and documentation.
-- Translation-ready user-visible strings using `monovm-vps`.
+- Translation-ready user-visible strings using `monovm-blueprint`.
 - No bundled Persian or Arabic starter content.
 - No `rtl-language-support` claim in version 1.0.
 - CSS logical properties are preferred where safe.
@@ -296,7 +296,7 @@ additional WordPress.org review path are approved.
 
 ## Required release artifacts
 
-- Clean installable `monovm-vps.zip`.
+- Clean installable `monovm-blueprint.zip`.
 - Public GitHub source repository.
 - Git tag and GitHub Release for `1.0.0`.
 - WordPress.org-compliant `readme.txt`.
@@ -352,7 +352,7 @@ additional WordPress.org review path are approved.
 
 ## Open decisions before implementation
 
-1. Final WordPress.org and trademark clearance for `MonoVM VPS`.
+1. Final WordPress.org and trademark clearance for `MonoVM Blueprint`.
 2. Final Theme URI and Author URI.
 3. Named product, design, technical, legal, and maintenance owners.
 4. Whether the first submission will pursue the `accessibility-ready` tag.

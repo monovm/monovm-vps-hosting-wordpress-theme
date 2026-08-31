@@ -45,7 +45,7 @@ jobs:
       - name: Upload installable artifact
         uses: actions/upload-artifact@v4
         with:
-          name: monovm-vps-1.0.0
+          name: monovm-blueprint-1.0.0
           path: |
-            dist/monovm-vps-1.0.0.zip
-            dist/monovm-vps-1.0.0.zip.sha256
+            dist/monovm-blueprint-1.0.0.zip
+            dist/monovm-blueprint-1.0.0.zip.sha256

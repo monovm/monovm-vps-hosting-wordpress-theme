@@ -32,7 +32,7 @@ if (-not (Test-Path -LiteralPath $distRoot)) {
     New-Item -ItemType Directory -Path $distRoot | Out-Null
 }
 
-$zipPath = Join-Path $distRoot "monovm-vps-$Version.zip"
+$zipPath = Join-Path $distRoot "monovm-blueprint-$Version.zip"
 $checksumPath = "$zipPath.sha256"
 
 foreach ($existing in @($zipPath, $checksumPath)) {
@@ -92,7 +92,7 @@ try {
     try {
         foreach ($source in ($sourceFiles | Sort-Object -Unique)) {
             $relative = Get-ThemeRelativePath -Path $source
-            $entryName = "monovm-vps/$relative"
+            $entryName = "monovm-blueprint/$relative"
             $entry = $archive.CreateEntry(
                 $entryName,
                 [System.IO.Compression.CompressionLevel]::Optimal

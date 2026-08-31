@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Internal default header
- * Slug: monovm-vps/hidden-header
- * Categories: monovm-vps, header
+ * Slug: monovm-blueprint/hidden-header
+ * Categories: monovm-blueprint, header
  * Description: Internal translatable composition for the default header template part.
  * Viewport Width: 1280
  * Block Types: core/template-part/header
@@ -25,12 +25,12 @@
 
 		<!-- wp:group {"className":"site-header__actions","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"right"}} -->
 		<div class="wp-block-group site-header__actions">
-			<!-- wp:navigation {"overlayMenu":"mobile","overlayBackgroundColor":"surface","overlayTextColor":"ink","ariaLabel":<?php echo wp_json_encode( __( 'Primary navigation', 'monovm-vps' ) ); ?>,"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"}} -->
+			<!-- wp:navigation {"overlayMenu":"mobile","overlayBackgroundColor":"surface","overlayTextColor":"ink","ariaLabel":<?php echo wp_json_encode( __( 'Primary navigation', 'monovm-blueprint' ) ); ?>,"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"}} -->
 				<!-- wp:page-list /-->
 			<!-- /wp:navigation -->
 
 			<!-- wp:buttons -->
-			<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"action","textColor":"canvas","fontSize":"small"} --><div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link has-canvas-color has-action-background-color has-text-color has-background wp-element-button" href="#main"><?php echo esc_html__( 'Explore content', 'monovm-vps' ); ?></a></div><!-- /wp:button --></div>
+			<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"action","textColor":"canvas","fontSize":"small"} --><div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link has-canvas-color has-action-background-color has-text-color has-background wp-element-button" href="#main"><?php echo esc_html__( 'Explore content', 'monovm-blueprint' ); ?></a></div><!-- /wp:button --></div>
 			<!-- /wp:buttons -->
 		</div>
 		<!-- /wp:group -->

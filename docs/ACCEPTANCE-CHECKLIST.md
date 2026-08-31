@@ -1,12 +1,12 @@
-# MonoVM VPS 1.0 Acceptance Checklist
+# MonoVM Blueprint 1.0 Acceptance Checklist
 
 Every required item in this document must pass before the `1.0.0` release is
 submitted to WordPress.org. An unchecked required item blocks release.
 
 ## 1. Product identity
 
-- [ ] Theme name is `MonoVM VPS` or the approved replacement after the final name and trademark check.
-- [ ] Slug, folder name, and text domain are exactly `monovm-vps`.
+- [ ] Theme name is exactly `MonoVM Blueprint`.
+- [ ] Slug, folder name, and text domain are exactly `monovm-blueprint`.
 - [ ] Version is `1.0.0` in every release surface.
 - [ ] Author is `MonoVM`.
 - [ ] Theme URI points to the dedicated MonoVM page for this theme.
@@ -16,7 +16,7 @@ submitted to WordPress.org. An unchecked required item blocks release.
 
 ## 2. Package structure and metadata
 
-- [ ] The installable ZIP has one root directory named `monovm-vps/`.
+- [ ] The installable ZIP has one root directory named `monovm-blueprint/`.
 - [ ] `style.css` contains all required headers and no inaccurate claims.
 - [ ] `readme.txt` passes the WordPress.org readme validator.
 - [ ] `LICENSE` contains the complete GPL v2-or-later license text.
@@ -96,7 +96,7 @@ submitted to WordPress.org. An unchecked required item blocks release.
 
 - [ ] All default copy, pattern content, screenshot text, listing copy, and public documentation are natural English.
 - [ ] A fluent English reviewer has approved grammar, capitalization, terminology, and tone.
-- [ ] All user-visible PHP and JavaScript strings use the `monovm-vps` text domain and appropriate i18n functions.
+- [ ] All user-visible PHP and JavaScript strings use the `monovm-blueprint` text domain and appropriate i18n functions.
 - [ ] Human-facing text is not unnecessarily hard-coded in block template HTML.
 - [ ] A test POT file can be generated without missing or malformed strings.
 - [ ] Layouts tolerate English strings expanded by 30–50 percent.
@@ -154,7 +154,7 @@ submitted to WordPress.org. An unchecked required item blocks release.
 - [ ] There is no telemetry, fingerprinting, tracking, affiliate parameter, or external update checker.
 - [ ] No user or site data is transmitted outside the WordPress installation.
 - [ ] No credential, token, environment path, private URL, or test account is packaged.
-- [ ] Any PHP identifiers use a unique `monovm_vps_` or `MONOVM_VPS_` prefix.
+- [ ] Any PHP identifiers use a unique `monovm_blueprint_` or `MONOVM_BLUEPRINT_` prefix.
 - [ ] Any input is validated and sanitized; any untrusted output is escaped at output time.
 - [ ] Any state-changing action uses capability checks and a nonce.
 - [ ] No deprecated, unsafe, or dynamically downloaded code is used.
@@ -163,8 +163,7 @@ submitted to WordPress.org. An unchecked required item blocks release.
 ## 12. Compatibility matrix
 
 - [ ] WordPress 6.6 clean install.
-- [ ] Latest stable WordPress clean install; currently 7.0.3 at specification time.
-- [ ] WordPress 7.1 after stable release; an RC result is not used for the public `Tested up to` claim.
+- [ ] Latest stable WordPress clean install; currently 7.1 at release time.
 - [ ] PHP 7.4.
 - [ ] PHP 8.1.
 - [ ] PHP 8.3.

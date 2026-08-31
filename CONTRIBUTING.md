@@ -1,6 +1,6 @@
-# Contributing to MonoVM VPS
+# Contributing to MonoVM Blueprint
 
-Thank you for helping improve MonoVM VPS.
+Thank you for helping improve MonoVM Blueprint.
 
 ## Before opening a change
 
