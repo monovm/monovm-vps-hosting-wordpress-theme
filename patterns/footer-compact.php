@@ -18,8 +18,8 @@
 		<!-- /wp:group -->
 
 		<!-- wp:navigation {"overlayMenu":"never","ariaLabel":<?php echo wp_json_encode( __( 'Legal navigation', 'monovm-blueprint' ) ); ?>,"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"},"fontSize":"small"} -->
-			<!-- wp:navigation-link {"label":<?php echo wp_json_encode( __( 'Privacy', 'monovm-blueprint' ) ); ?>,"url":"#","kind":"custom","isTopLevelLink":true} /-->
-			<!-- wp:navigation-link {"label":<?php echo wp_json_encode( __( 'Terms', 'monovm-blueprint' ) ); ?>,"url":"#","kind":"custom","isTopLevelLink":true} /-->
+			<!-- wp:navigation-link {"label":<?php echo wp_json_encode( __( 'Privacy', 'monovm-blueprint' ) ); ?>,"url":"<?php echo esc_url( home_url( '/about/' ) ); ?>","kind":"custom","isTopLevelLink":true} /-->
+			<!-- wp:navigation-link {"label":<?php echo wp_json_encode( __( 'Terms', 'monovm-blueprint' ) ); ?>,"url":"<?php echo esc_url( home_url( '/about/' ) ); ?>","kind":"custom","isTopLevelLink":true} /-->
 		<!-- /wp:navigation -->
 	</div>
 	<!-- /wp:group -->

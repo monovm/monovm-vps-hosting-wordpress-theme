@@ -24,7 +24,7 @@
 			<!-- /wp:navigation -->
 
 			<!-- wp:buttons -->
-			<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"action","textColor":"canvas","fontSize":"small"} --><div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link has-canvas-color has-action-background-color has-text-color has-background wp-element-button" href="#"><?php echo esc_html__( 'View plans', 'monovm-blueprint' ); ?></a></div><!-- /wp:button --></div>
+			<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"action","textColor":"canvas","fontSize":"small"} --><div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link has-canvas-color has-action-background-color has-text-color has-background wp-element-button" href="<?php echo esc_url( home_url( '/pricing/' ) ); ?>"><?php echo esc_html__( 'View plans', 'monovm-blueprint' ); ?></a></div><!-- /wp:button --></div>
 			<!-- /wp:buttons -->
 		</div>
 		<!-- /wp:group -->

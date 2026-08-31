@@ -201,9 +201,9 @@ foreach ( $posts as $index => $post ) {
 update_option( 'show_on_front', 'page' );
 update_option( 'page_on_front', $page_ids['home'] );
 update_option( 'page_for_posts', $page_ids['blog'] );
-update_option( 'permalink_structure', '/%postname%/' );
 update_option( 'blogname', 'Atlas Compute' );
 update_option( 'blogdescription', 'Virtual infrastructure, clearly presented' );
 
-flush_rewrite_rules();
-
+global $wp_rewrite;
+$wp_rewrite->set_permalink_structure( '/%postname%/' );
+$wp_rewrite->flush_rules();

@@ -1,6 +1,7 @@
 /dist/
 /vendor/
 /.wordpress-playground/
+/.playwright-cli/
 /.phpcs-cache
 /.DS_Store
 Thumbs.db

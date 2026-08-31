@@ -31,7 +31,7 @@
 		<!-- wp:column {"verticalAlignment":"center","width":"32%"} -->
 		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:32%">
 			<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
-			<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"canvas","textColor":"ink","width":100} --><div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-ink-color has-canvas-background-color has-text-color has-background wp-element-button" href="#"><?php echo esc_html__( 'Start a deployment conversation', 'monovm-blueprint' ); ?></a></div><!-- /wp:button --></div>
+			<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"canvas","textColor":"ink","width":100} --><div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-ink-color has-canvas-background-color has-text-color has-background wp-element-button" href="<?php echo esc_url( home_url( '/about/contact/' ) ); ?>"><?php echo esc_html__( 'Start a deployment conversation', 'monovm-blueprint' ); ?></a></div><!-- /wp:button --></div>
 			<!-- /wp:buttons -->
 		</div>
 		<!-- /wp:column -->

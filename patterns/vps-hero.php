@@ -29,11 +29,11 @@
 			<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|70"}}}} -->
 			<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--70)">
 				<!-- wp:button {"backgroundColor":"action","textColor":"canvas"} -->
-				<div class="wp-block-button"><a class="wp-block-button__link has-canvas-color has-action-background-color has-text-color has-background wp-element-button" href="#"><?php echo esc_html__( 'Compare VPS plans', 'monovm-blueprint' ); ?></a></div>
+				<div class="wp-block-button"><a class="wp-block-button__link has-canvas-color has-action-background-color has-text-color has-background wp-element-button" href="<?php echo esc_url( home_url( '/pricing/' ) ); ?>"><?php echo esc_html__( 'Compare VPS plans', 'monovm-blueprint' ); ?></a></div>
 				<!-- /wp:button -->
 
 				<!-- wp:button {"textColor":"ink","className":"is-style-outline"} -->
-				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-ink-color has-text-color wp-element-button" href="#"><?php echo esc_html__( 'View server locations', 'monovm-blueprint' ); ?></a></div>
+				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-ink-color has-text-color wp-element-button" href="<?php echo esc_url( home_url( '/network-locations/' ) ); ?>"><?php echo esc_html__( 'View server locations', 'monovm-blueprint' ); ?></a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->
