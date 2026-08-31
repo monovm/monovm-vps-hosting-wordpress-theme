@@ -31,7 +31,7 @@ human review or the remaining optional checks in the acceptance checklist.
 - `style.css` and `assets/css/theme.css` pass CSS Tree syntax validation.
 - Combined theme CSS is 10,080 bytes raw and 2,536 bytes at gzip level 9,
   below the 30 KB gzip budget.
-- The theme contains 10 required templates, 4 template parts, 16 public
+- The theme contains 10 required templates, 4 template parts, 24 public
   patterns, and 7 internal non-inserter patterns.
 - Runtime scanning finds no external dependency, non-Core block namespace,
   JavaScript URL, Arabic-script starter copy, or theme-authored JavaScript.
@@ -49,6 +49,9 @@ human review or the remaining optional checks in the acceptance checklist.
 - The Site Editor opened successfully and exposed templates, patterns, and all
   four style choices: Default, Dark Infrastructure, Light Business, and High
   Contrast.
+- All eight full-page starters appeared under Starter content in the page
+  editor. Inserting the VPS starter expanded it into eight independent Core
+  block groups with no synced or theme-dependent pattern reference left behind.
 - A 390-pixel mobile viewport produced no page-level horizontal overflow. The
   responsive navigation opened and closed, pricing cards stacked, and the wide
   comparison table remained horizontally scrollable inside its own container.
@@ -56,22 +59,24 @@ human review or the remaining optional checks in the acceptance checklist.
   7.4 for the front page, page, post, search, and archive routes.
 - The final 1200x900 `screenshot.png` is a valid PNG generated from the running
   theme, not a design mockup.
+- Three additional product-page previews were captured from the running theme
+  at 1440x900 desktop and 390x844 mobile viewports.
 
 ## Passing release-package checks
 
 - `node scripts/validate-theme.mjs` passes all repository checks: 20 required
-  files, 16 public patterns, 7 internal patterns, 4 JSON files, CSS budget, and
+  files, 24 public patterns, 7 internal patterns, 4 JSON files, CSS budget, and
   font budget.
-- PHP_CodeSniffer passes all 24 PHP files under the project's WordPress Coding
+- PHP_CodeSniffer passes all 32 PHP files under the project's WordPress Coding
   Standards and PHPCompatibility ruleset.
-- The deterministic build contains 52 files under the single
+- The deterministic build contains 60 files under the single
   `monovm-blueprint/` root, includes the POT and screenshot, excludes development
-  tooling, and is 546,951 bytes.
+  tooling, and is 556,491 bytes.
 - Two consecutive builds produced the same SHA-256 digest:
-  `9f79ceec1dcf334d5c241efa4baf199cd8128ca54cb57dc17c0f362ad80c360a`.
+  `4a8d94f4ac122a74d82716931b1e8b9318086fb157109e8b2904db5eaabdbe15`.
 - A clean Playground run from the extracted ZIP passed on WordPress 7.1 with
   PHP 8.3 for the front page, page, post, search, and archive routes.
-- WordPress Theme Check ran 8,565 tests against the extracted package and
+- WordPress Theme Check ran 11,333 tests against the extracted package and
   reported that MonoVM Blueprint passed. Its only remaining text-domain message
   is informational and confirms the correct `monovm-blueprint` domain.
 

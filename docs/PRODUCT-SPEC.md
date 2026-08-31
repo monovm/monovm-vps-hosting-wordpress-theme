@@ -3,7 +3,7 @@
 ## Document status
 
 - **Decision:** Approved for specification and design
-- **Implementation:** Not started
+- **Implementation:** Complete; expanded starter-page structure under validation
 - **Target version:** 1.0.0
 - **Working theme name:** MonoVM Blueprint
 - **Slug and text domain:** `monovm-blueprint`
@@ -149,6 +149,21 @@ Editor and must not contain a forced MonoVM link.
 
 All patterns must work independently. A user must be able to insert, remove,
 reorder, and restyle them without installing a plugin.
+
+### Starter page patterns
+
+1. VPS service
+2. Cloud service
+3. Dedicated servers
+4. Pricing and plans
+5. Network and locations
+6. Infrastructure company / About
+7. Support center
+8. Contact and sales
+
+Each starter is offered through the standard new-page pattern flow and expands
+to editable Core blocks. Together they cover the primary site map while the
+individual section patterns remain available for custom compositions.
 
 ### Style system
 

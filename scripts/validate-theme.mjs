@@ -148,6 +148,14 @@ const expectedPublicPatternSlugs = new Set([
   'final-cta',
   'header-compact',
   'footer-compact',
+  'page-vps-service',
+  'page-cloud-service',
+  'page-dedicated-servers',
+  'page-pricing',
+  'page-network-locations',
+  'page-company-about',
+  'page-support-center',
+  'page-contact',
 ]);
 const expectedInternalPatternSlugs = new Set([
   'hidden-header',
@@ -182,6 +190,14 @@ for (const file of patternFiles) {
   }
   if (!content.includes("'monovm-blueprint'")) {
     fail(`${relative(file)} does not contain the monovm-blueprint text domain`);
+  }
+  if (slugMatch && slugMatch[1].startsWith('page-')) {
+    if (!/^\s*\*\s+Block Types:\s+core\/post-content\s*$/mi.test(content)) {
+      fail(`${relative(file)} must declare Block Types: core/post-content`);
+    }
+    if (!/^\s*\*\s+Post Types:\s+page\s*$/mi.test(content)) {
+      fail(`${relative(file)} must declare Post Types: page`);
+    }
   }
   if (slugMatch && expectedInternalPatternSlugs.has(slugMatch[1]) && !/^\s*\*\s+Inserter:\s+no\s*$/mi.test(content)) {
     fail(`${relative(file)} must declare Inserter: no`);

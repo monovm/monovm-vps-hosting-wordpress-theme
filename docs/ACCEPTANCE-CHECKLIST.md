@@ -47,6 +47,8 @@ submitted to WordPress.org. An unchecked required item blocks release.
 
 ## 4. Content patterns
 
+- [ ] Eight starter page patterns appear in the new-page pattern flow and expand to editable Core blocks.
+
 - [ ] VPS hero.
 - [ ] Service grid.
 - [ ] Pricing cards.

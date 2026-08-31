@@ -22,6 +22,11 @@ and a collection of hosting-specific patterns. Everything is built with Core
 WordPress blocks and the Site Editor. There is no page-builder dependency,
 required plugin, remote service, or theme-specific content type.
 
+Eight full-page starters cover VPS, cloud, dedicated servers, pricing, network
+locations, company information, support, and contact. They complement the
+individual section patterns, so users can begin with a complete page or
+assemble their own structure.
+
 MonoVM Blueprint provides presentation only. Billing, checkout, provisioning, domain
 search, account management, ticketing, forms, and other business functionality
 belong in plugins or external services chosen by the site owner.
@@ -96,6 +101,7 @@ their own privacy behavior and should be reviewed separately.
 * Initial release.
 * Added ten block templates and four template parts.
 * Added hosting-specific patterns and compact header and footer alternatives.
+* Added eight complete starter-page layouts for the main site structure.
 * Added Dark Infrastructure, Light Business, and High Contrast style systems.
 
 == Upgrade Notice ==

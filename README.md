@@ -16,11 +16,30 @@ browser checks, and deterministic package validation pass. The exact evidence
 and the remaining publication prerequisite are recorded in the
 [QA report](docs/QA-REPORT.md).
 
+## Preview
+
+The images below come from a clean WordPress installation running the theme.
+They can also be reused on the MonoVM download page.
+
+### Homepage
+
+![MonoVM Blueprint desktop homepage](docs/previews/homepage-desktop.png)
+
+### Plans and comparison
+
+![MonoVM Blueprint pricing and plan comparison](docs/previews/pricing-desktop.png)
+
+### Mobile layout
+
+![MonoVM Blueprint mobile homepage](docs/previews/homepage-mobile.png)
+
 ## Included in version 1.0.0
 
 - Ten block templates, including custom Page without title and Blank / Landing templates.
 - Four header and footer template parts.
-- Fourteen hosting-specific content patterns plus compact header and footer patterns.
+- Fourteen hosting-specific section patterns plus compact header and footer patterns.
+- Eight complete starter pages for VPS, cloud, dedicated servers, pricing,
+  network locations, company information, support, and contact.
 - Seven non-inserter patterns that keep template copy translation-ready.
 - Dark Infrastructure, Light Business, and High Contrast style variations.
 - Local IBM Plex Sans and IBM Plex Mono variable-font subsets.

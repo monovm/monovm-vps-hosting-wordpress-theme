@@ -9,6 +9,7 @@ All notable changes to MonoVM Blueprint are documented in this file.
 - Native WordPress block-theme foundation for WordPress 6.6+ and PHP 7.4+.
 - Ten templates and four reusable header and footer template parts.
 - Fourteen hosting-specific content patterns plus compact header and footer patterns.
+- Eight full-page starter patterns for the core infrastructure-company site map.
 - Seven internal patterns for translatable template content.
 - Dark Infrastructure, Light Business, and High Contrast visual systems.
 - Translation-ready copy using the `monovm-blueprint` text domain.

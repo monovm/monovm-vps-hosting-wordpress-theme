@@ -2,7 +2,7 @@
 /**
  * Theme setup and asset loading.
  *
- * @package MonoVM_VPS
+ * @package MonoVM_Blueprint
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
