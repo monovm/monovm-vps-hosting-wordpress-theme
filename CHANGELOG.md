@@ -11,7 +11,7 @@ All notable changes to MonoVM Blueprint are documented in this file.
 - Fourteen hosting-specific content patterns plus compact header and footer patterns.
 - Seven internal patterns for translatable template content.
 - Dark Infrastructure, Light Business, and High Contrast visual systems.
-- English-first, translation-ready copy using the `monovm-blueprint` text domain.
+- Translation-ready copy using the `monovm-blueprint` text domain.
 - Locally hosted IBM Plex Sans and IBM Plex Mono variable-font subsets.
 - WordPress Playground blueprint and deterministic release packaging.
 - Automated checks for package structure, patterns, JSON, runtime URLs, language,

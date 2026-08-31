@@ -12,7 +12,7 @@ An editorial block theme for VPS, cloud, server, and hosting business websites.
 
 == Description ==
 
-MonoVM Blueprint is an English-first, translation-ready block theme for VPS, cloud,
+MonoVM Blueprint is a translation-ready block theme for VPS, cloud,
 server, and hosting businesses. Its focused visual system turns technical
 services, plan comparisons, locations, security information, support paths,
 and educational content into clear, editable pages.

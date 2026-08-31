@@ -86,8 +86,8 @@ business functionality. Users need a lightweight alternative that:
    generic neon, stock-server, and cyberpunk decoration.
 6. **Private by default.** No telemetry, tracking, remote font, or external
    service request.
-7. **English first.** All public copy is natural English; implementation remains
-   translation-ready.
+7. **Translation ready.** All public copy uses the theme text domain;
+   implementation remains translation-ready.
 8. **Maintainable.** Version 1.0 stays small enough for one named maintainer.
 
 ## Version 1.0 scope

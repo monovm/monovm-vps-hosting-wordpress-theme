@@ -1,6 +1,6 @@
 # MonoVM Blueprint
 
-MonoVM Blueprint is an English-first, native WordPress block theme for VPS, cloud,
+MonoVM Blueprint is a native WordPress block theme for VPS, cloud,
 server, hosting, and managed-infrastructure businesses. It provides a complete,
 editable marketing-site foundation without a page builder, required plugin,
 remote service, or theme-specific content model.
